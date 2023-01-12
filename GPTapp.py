@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
-st.set_page_config(page_title="My Streamlit App", page_icon=":guardsman:", layout="wide")
 
 # Create some fields for user input
 name = st.text_input("Enter your name")
