@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Define the API endpoint and parameters
-api_key = "xxxx"
+api_key = "1036d77762adc57b8c2dddcb299ad2f9"
 endpoint = "http://api.openweathermap.org/data/2.5/weather"
 params = {"q": "Sao Paulo,BR", "appid": api_key, "units": "metric"}
 
