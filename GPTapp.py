@@ -30,9 +30,8 @@ if show_graph:
     # Extract the temperature data from the response
     temp_data = [item["main"]["temp"] for item in data["list"]]
     
-    # Create a line plot of the temperature over time
-    plt.plot(temp_data, linewidth=2, color='green')
+   # Create a line plot of the temperature over time
+    plt.plot(temp_data)
     plt.xlabel("Time")
     plt.ylabel("Temperature (°C)")
-    plt.grid(visible=True, linestyle='-.') # show grid
     st.pyplot()
